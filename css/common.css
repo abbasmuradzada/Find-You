@@ -1,0 +1,73 @@
+.contanier {
+  width: 1175px;
+  margin: 0 auto;
+}
+
+.triangle-top-left {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 0;
+  border-color: #80E0DD transparent transparent transparent;
+  left: 0px;
+  bottom: 0px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.triangle-top-right {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 0;
+  border-color: transparent #80E0DD transparent transparent;
+  right: 0px;
+  bottom: 0px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.triangle-top-left-r {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 0;
+  border-color: rgba(239, 127, 101, 0.1) transparent transparent transparent;
+  left: 0px;
+  bottom: 0px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.triangle-top-right-r {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 0;
+  border-color: transparent rgba(239, 127, 101, 0.1) transparent transparent;
+  right: 0px;
+  bottom: 0px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.triangle-bottom-left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 0 0 26px;
+  border-color: transparent transparent transparent #63C5C2;
+  position: absolute;
+  top: 0px;
+  right: -26px;
+}
+/*# sourceMappingURL=common.css.map */

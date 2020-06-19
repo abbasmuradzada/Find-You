@@ -1,0 +1,451 @@
+@import './mixin';
+@import './variables';
+
+
+header{
+    margin-bottom: 150px;
+    .contanier{
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 36px;
+            margin-bottom: 90px;
+            h3{
+                @include nunito-font (22px, 30px, none, #15354B);
+                margin-left: 4px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            ul{
+                margin-left: auto;
+                li{
+                    display: inline-block;
+                    @include nunito-font (16px, 36px, none, #506270);
+                    margin-left: 50px;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    >a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: $color-red;
+                        padding: 12px 54px;
+                        border-radius: 23px;
+                    }
+                }
+            }     }
+        
+    }
+    >#wrapper{
+        width: 100%;
+        background-image: url(../images/icon.png);
+        // height: 400px;
+        background-repeat: no-repeat;
+        background-size: 95%;
+        background-position: center;
+        background-position: top;
+        padding-top: 75px;
+        margin-bottom: 90px;
+        #banner-text{
+            margin: auto;
+            width: 820px;
+            text-align: center;
+            >h1{
+                @include nunito-font (60px, 78px, none, #15354B);
+                margin-bottom: 35px;
+            }>p{
+                @include rubik-font (20px, 36px, 400, #506270);
+                margin-bottom: 60px;
+            }>a{
+                @include nunito-font (16px, 36px, 400, #506270);
+                text-decoration: none;
+                padding: 17px 78px;
+                border: 1px solid #506270;
+                border-radius: 30px;
+                &:hover{
+                    background-color: #506270;
+                    color: white;
+                    transition: .3s ease;
+                }
+            }
+        }
+    }#header-img{
+        margin: auto;
+        text-align: center;
+        >img{
+            margin: auto;
+        }
+    }
+}
+
+#creating-account{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    #creating-details{
+        width: 550px;
+        margin-top: 100px;
+        >h1{
+            @include nunito-font (40px, 78px, none, #15354B);
+            text-transform: capitalize;
+            margin-bottom: 40px;
+        }p{
+            @include rubik-font (16px, 34px, 400, #506270);
+            margin-bottom: 50px;
+        }#email-form{
+            >input{
+                width: 270px;
+                height: 45px;
+                border: none;
+                background-color: rgba($color: $color-blue, $alpha: .15);
+                border-radius: 8px;
+                outline: $color-blue;
+                @include rubik-font (15px, 34px, 400, black);
+                padding: 13px 20px;
+                box-sizing: border-box;
+                margin-right: 30px;
+                &::placeholder{
+                    color: $color-blue;
+                }
+            }>a{
+                height: 45px;
+                padding: 13px 35px;
+                background-color: $color-blue;
+                border-radius: 8px;
+                @include rubik-font (15px, 34px, 400, white);
+                text-transform: capitalize;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#pricing-section{
+    width: 1161px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 283px;
+    >h1{
+        @include nunito-font (40px, 78px, none, #15354B);
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }>p{
+        @include nunito-font (16px, 34px, 400, #506270);
+        padding: 0px 200px;
+        box-sizing: border-box;
+        margin-bottom: 80px;
+    }#pricing-list{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        #pricing-cart{
+            width: calc((100% - 100px)/2);
+            .pricing-cart-top{
+                border: solid #E5E5E5 1px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                text-align: left;
+                padding: 0px 60px;
+                box-sizing: border-box;
+                >img{
+                    margin-top: 80px;
+                    margin-bottom: 30px;
+                }.label{
+                    position: relative;
+                    width: 50px;
+                    background-color: $color-blue;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    float: right;
+                    text-transform: capitalize;
+                    padding: 50px 0px;
+                    @include nunito-font (20px, none, none, white);
+                    >span{
+                        transform: rotate(-90deg);
+                    }
+                }>h1{
+                    @include nunito-font (40px, 40px, none, #15354B);
+                    margin-bottom: 40px;
+                    >span{
+                    @include nunito-font (24px, 40px, none, #15354B);
+                }
+                }
+            }.pricing-cart-bottom{
+                border: 1px solid #E5E5E5;
+                border-top: 0px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                text-align: left;
+                padding: 0px 60px;
+                padding-top: 38px;
+                box-sizing: border-box;
+                >p{
+                    @include nunito-font (18px, 48px, none, #506270);
+                }.sign-up{
+                    margin-top: 60px;
+                    display: flex;
+                    margin-bottom: 80px;
+                    justify-content: flex-start;
+                    >a{
+                        padding: 10px 60px;
+                    background-color: $color-blue;
+                    @include nunito-font (16px, 36px, 400, white);
+                    text-transform: capitalize;
+                    border-radius: 28px;
+                    text-decoration: none;
+                    &:last-child{
+                        color: $color-blue;
+                        background-color: white;
+                        padding: 10px 0px;
+                        margin-left: 25px;
+                        border-radius: 0px;
+                    }
+                    }
+                }
+            }
+        }#pricing-cart-right{
+            width: calc((100% - 100px)/2);
+            .pricing-cart-top{
+                border: solid #E5E5E5 1px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                text-align: left;
+                padding: 0px 60px;
+                box-sizing: border-box;
+                >img{
+                    margin-top: 80px;
+                    margin-bottom: 30px;
+                }.label{
+                    position: relative;
+                    width: 50px;
+                    background-color: rgba($color: $color-red, $alpha: .1);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    float: right;
+                    text-transform: capitalize;
+                    padding: 50px 0px;
+                    @include nunito-font (20px, none, none, $color-red);
+                    >span{
+                        transform: rotate(-90deg);
+                    }
+                }>h1{
+                    @include nunito-font (40px, 40px, none, #15354B);
+                    margin-bottom: 40px;
+                    >span{
+                    @include nunito-font (24px, 40px, none, #15354B);
+                }
+                }
+            }.pricing-cart-bottom{
+                border: 1px solid #E5E5E5;
+                border-top: 0px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                text-align: left;
+                padding: 0px 60px;
+                padding-top: 38px;
+                box-sizing: border-box;
+                >p{
+                    @include nunito-font (18px, 48px, none, #506270);
+                }.sign-up{
+                    margin-top: 60px;
+                    display: flex;
+                    margin-bottom: 80px;
+                    justify-content: flex-start;
+                    >a{
+                        padding: 10px 60px;
+                    background-color: $color-red;
+                    @include nunito-font (16px, 36px, 400, white);
+                    text-transform: capitalize;
+                    border-radius: 28px;
+                    text-decoration: none;
+                    &:last-child{
+                        color: $color-red;
+                        background-color: white;
+                        padding: 10px 0px;
+                        margin-left: 25px;
+                    }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+#promotion{
+    width: 100%;
+    background-color: #EFF8FF;
+    height: 664px;
+    margin-bottom: 250px;
+    >.contanier{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #downloading{
+            width: 650px;
+            >h1{
+                @include nunito-font (60px, 75px, none, #15354B);
+                margin-bottom: 55px;
+            }>p{
+                @include rubik-font (16px, 34px, 400, #506270);
+                margin-bottom: 70px;
+            }#apps{
+                display: flex;
+                align-items: center;
+                >h3{
+                    @include nunito-font (28px, 56px, none, #15354B);
+                    margin-right: 50px;
+                }img{
+                    width: 135px;
+                    height: 40px;
+                    margin-left: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+#subscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 40px;
+    #sub-desc{
+        width: 850px;
+        padding-bottom: 50px;
+        >h2{
+        @include rubik-font (40px, 56px, none, #15354B);
+        margin-bottom: 40px;
+        }>p{
+            @include rubik-font (16px, 34px, 400, #506270);
+        }
+    }
+    a{
+        @include rubik-font (20px, 34px, 400, white);
+        padding: 18px 80px;
+        background-color: $color-blue;
+        text-decoration: none;
+        border-radius: 50px;
+        letter-spacing: 0.1em;
+        box-shadow: 8px 8px 20px rgba($color: #80E0DD, $alpha: 1.0);
+    }
+}
+
+footer{
+    width: 100%;
+    // height: 400px;
+    background-image: url(../images/icon2.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center top;
+    padding-top: 115px;
+    #footer-bottom{
+        width: $contanier;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 46px;
+        >h3{
+            @include rubik-font (16px, 32px, 400, #506270);
+        }
+    }
+    .contanier{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-bottom: 60px;
+        #foot-title{
+            display: flex;
+            margin-right: auto;
+            align-items: center;
+            >h3{
+                @include nunito-font (22px, 30px, none, #15354B);
+                margin-left: 4px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }#foot-column{
+            margin-right: 150px;
+            >h4{
+                @include nunito-font (20px, 30px, none, #222222);
+            }>p{
+                @include rubik-font (16px, 40px, 400, #506270);
+            }
+        }#social-m{
+            width: 191px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+#featuring{
+    width: 100%;
+    background-color: #EFF8FF;
+    margin-bottom: 200px;
+    position: relative;
+    >#core-lable{
+        width: 50px;
+        height: 250px;
+        background-color: $color-blue;
+        position: absolute;
+        left: 20px;
+        top: -26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >p{
+            transform: rotate(-90deg);   
+            @include nunito-font (28px, none, 400, #fff);
+        
+        }
+    }
+    >.contanier{
+        padding: 100px 0px;
+        display: flex;
+        justify-content: space-between;
+        .secvices{
+            width: calc((100% - 104px)/3);
+            // background-color: green;
+            .back-logo{
+                width: 92px;
+                height: 92px;
+                background-color: $color-red;
+                border-radius: 15px;
+                position: relative;
+                margin-bottom: 35px;
+                .logo{
+                    width: 88px;
+                    height: 88px;
+                    border-radius: 15px;
+                    border: 2px solid #3B5C91;
+                    color: #3B5C91;
+                    position: absolute;
+                    left: 9px;
+                    bottom: 9px;
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }.bl-2{
+                background-color: $color-green;
+            }.bl-3{
+                background-color: $color-yellow;
+            }>h3{
+                @include nunito-font (28px, 32px, none, #15354B);
+                text-transform: capitalize;
+                margin-bottom: 30px;
+            }>p{
+                @include rubik-font (16px, 32px, 400, #506270);
+            }
+        }
+    }
+}

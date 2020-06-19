@@ -1,0 +1,71 @@
+@import './mixin';
+@import './variables';
+
+.contanier{
+    width: $contanier;
+    margin: 0 auto;
+}
+
+.triangle-top-left {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: $color-blue transparent transparent transparent;
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+
+.triangle-top-right {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 0;
+    border-color: transparent $color-blue transparent transparent;
+    right: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+
+.triangle-top-left-r {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: rgba($color: $color-red, $alpha: .1) transparent transparent transparent;
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+
+.triangle-top-right-r {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 0;
+    border-color: transparent rgba($color: $color-red, $alpha: .1) transparent transparent;
+    right: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+
+.triangle-bottom-left {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 0 0 26px;
+    border-color: transparent transparent transparent #63C5C2;
+    position: absolute;
+    top: 0px;
+    right: -26px;
+}

@@ -1,0 +1,790 @@
+header {
+  margin-bottom: 150px;
+}
+
+header .contanier nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 36px;
+  margin-bottom: 90px;
+}
+
+header .contanier nav h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: none;
+  color: #15354B;
+  margin-left: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+header .contanier nav ul {
+  margin-left: auto;
+}
+
+header .contanier nav ul li {
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: none;
+  color: #506270;
+  margin-left: 50px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+header .contanier nav ul li > a {
+  text-decoration: none;
+  color: white;
+  background-color: #EF7F65;
+  padding: 12px 54px;
+  border-radius: 23px;
+}
+
+header > #wrapper {
+  width: 100%;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+  background-position: top;
+  padding-top: 75px;
+  margin-bottom: 90px;
+}
+
+header > #wrapper #banner-text {
+  margin: auto;
+  width: 820px;
+  text-align: center;
+}
+
+header > #wrapper #banner-text > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: none;
+  color: #15354B;
+  margin-bottom: 35px;
+}
+
+header > #wrapper #banner-text > p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #506270;
+  margin-bottom: 60px;
+}
+
+header > #wrapper #banner-text > a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #506270;
+  text-decoration: none;
+  padding: 17px 78px;
+  border: 1px solid #506270;
+  border-radius: 30px;
+}
+
+header > #wrapper #banner-text > a:hover {
+  background-color: #506270;
+  color: white;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header #header-img {
+  margin: auto;
+  text-align: center;
+}
+
+header #header-img > img {
+  margin: auto;
+}
+
+#creating-account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+#creating-account #creating-details {
+  width: 550px;
+  margin-top: 100px;
+}
+
+#creating-account #creating-details > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  line-height: 78px;
+  font-weight: none;
+  color: #15354B;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+#creating-account #creating-details p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #506270;
+  margin-bottom: 50px;
+}
+
+#creating-account #creating-details #email-form > input {
+  width: 270px;
+  height: 45px;
+  border: none;
+  background-color: rgba(128, 224, 221, 0.15);
+  border-radius: 8px;
+  outline: #80E0DD;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  line-height: 34px;
+  font-weight: 400;
+  color: black;
+  padding: 13px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 30px;
+}
+
+#creating-account #creating-details #email-form > input::-webkit-input-placeholder {
+  color: #80E0DD;
+}
+
+#creating-account #creating-details #email-form > input:-ms-input-placeholder {
+  color: #80E0DD;
+}
+
+#creating-account #creating-details #email-form > input::-ms-input-placeholder {
+  color: #80E0DD;
+}
+
+#creating-account #creating-details #email-form > input::placeholder {
+  color: #80E0DD;
+}
+
+#creating-account #creating-details #email-form > a {
+  height: 45px;
+  padding: 13px 35px;
+  background-color: #80E0DD;
+  border-radius: 8px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  line-height: 34px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#pricing-section {
+  width: 1161px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 283px;
+}
+
+#pricing-section > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  line-height: 78px;
+  font-weight: none;
+  color: #15354B;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+#pricing-section > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #506270;
+  padding: 0px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 80px;
+}
+
+#pricing-section #pricing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#pricing-section #pricing-list #pricing-cart {
+  width: calc((100% - 100px)/2);
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top {
+  border: solid #E5E5E5 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: left;
+  padding: 0px 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top > img {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top .label {
+  position: relative;
+  width: 50px;
+  background-color: #80E0DD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  text-transform: capitalize;
+  padding: 50px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  line-height: none;
+  font-weight: none;
+  color: white;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top .label > span {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: none;
+  color: #15354B;
+  margin-bottom: 40px;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-top > h1 > span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: none;
+  color: #15354B;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-bottom {
+  border: 1px solid #E5E5E5;
+  border-top: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: left;
+  padding: 0px 60px;
+  padding-top: 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-bottom > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: none;
+  color: #506270;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-bottom .sign-up {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-bottom .sign-up > a {
+  padding: 10px 60px;
+  background-color: #80E0DD;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 28px;
+  text-decoration: none;
+}
+
+#pricing-section #pricing-list #pricing-cart .pricing-cart-bottom .sign-up > a:last-child {
+  color: #80E0DD;
+  background-color: white;
+  padding: 10px 0px;
+  margin-left: 25px;
+  border-radius: 0px;
+}
+
+#pricing-section #pricing-list #pricing-cart-right {
+  width: calc((100% - 100px)/2);
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top {
+  border: solid #E5E5E5 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: left;
+  padding: 0px 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top > img {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top .label {
+  position: relative;
+  width: 50px;
+  background-color: rgba(239, 127, 101, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  text-transform: capitalize;
+  padding: 50px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  line-height: none;
+  font-weight: none;
+  color: #EF7F65;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top .label > span {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: none;
+  color: #15354B;
+  margin-bottom: 40px;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-top > h1 > span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: none;
+  color: #15354B;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-bottom {
+  border: 1px solid #E5E5E5;
+  border-top: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: left;
+  padding: 0px 60px;
+  padding-top: 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-bottom > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: none;
+  color: #506270;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-bottom .sign-up {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-bottom .sign-up > a {
+  padding: 10px 60px;
+  background-color: #EF7F65;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 28px;
+  text-decoration: none;
+}
+
+#pricing-section #pricing-list #pricing-cart-right .pricing-cart-bottom .sign-up > a:last-child {
+  color: #EF7F65;
+  background-color: white;
+  padding: 10px 0px;
+  margin-left: 25px;
+}
+
+#promotion {
+  width: 100%;
+  background-color: #EFF8FF;
+  height: 664px;
+  margin-bottom: 250px;
+}
+
+#promotion > .contanier {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#promotion > .contanier #downloading {
+  width: 650px;
+}
+
+#promotion > .contanier #downloading > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: none;
+  color: #15354B;
+  margin-bottom: 55px;
+}
+
+#promotion > .contanier #downloading > p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #506270;
+  margin-bottom: 70px;
+}
+
+#promotion > .contanier #downloading #apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#promotion > .contanier #downloading #apps > h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  line-height: 56px;
+  font-weight: none;
+  color: #15354B;
+  margin-right: 50px;
+}
+
+#promotion > .contanier #downloading #apps img {
+  width: 135px;
+  height: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#subscription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 40px;
+}
+
+#subscription #sub-desc {
+  width: 850px;
+  padding-bottom: 50px;
+}
+
+#subscription #sub-desc > h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: none;
+  color: #15354B;
+  margin-bottom: 40px;
+}
+
+#subscription #sub-desc > p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #506270;
+}
+
+#subscription a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: white;
+  padding: 18px 80px;
+  background-color: #80E0DD;
+  text-decoration: none;
+  border-radius: 50px;
+  letter-spacing: 0.1em;
+  -webkit-box-shadow: 8px 8px 20px #80e0dd;
+          box-shadow: 8px 8px 20px #80e0dd;
+}
+
+footer {
+  width: 100%;
+  background-image: url(../images/icon2.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center top;
+  padding-top: 115px;
+}
+
+footer #footer-bottom {
+  width: 1175px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 46px;
+}
+
+footer #footer-bottom > h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #506270;
+}
+
+footer .contanier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 60px;
+}
+
+footer .contanier #foot-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contanier #foot-title > h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: none;
+  color: #15354B;
+  margin-left: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+footer .contanier #foot-column {
+  margin-right: 150px;
+}
+
+footer .contanier #foot-column > h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: none;
+  color: #222222;
+}
+
+footer .contanier #foot-column > p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #506270;
+}
+
+footer .contanier #social-m {
+  width: 191px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#featuring {
+  width: 100%;
+  background-color: #EFF8FF;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+#featuring > #core-lable {
+  width: 50px;
+  height: 250px;
+  background-color: #80E0DD;
+  position: absolute;
+  left: 20px;
+  top: -26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#featuring > #core-lable > p {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  line-height: none;
+  font-weight: 400;
+  color: #fff;
+}
+
+#featuring > .contanier {
+  padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#featuring > .contanier .secvices {
+  width: calc((100% - 104px)/3);
+}
+
+#featuring > .contanier .secvices .back-logo {
+  width: 92px;
+  height: 92px;
+  background-color: #EF7F65;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+#featuring > .contanier .secvices .back-logo .logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 15px;
+  border: 2px solid #3B5C91;
+  color: #3B5C91;
+  position: absolute;
+  left: 9px;
+  bottom: 9px;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#featuring > .contanier .secvices .bl-2 {
+  background-color: #B1EA8C;
+}
+
+#featuring > .contanier .secvices .bl-3 {
+  background-color: #FFE35A;
+}
+
+#featuring > .contanier .secvices > h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: none;
+  color: #15354B;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+#featuring > .contanier .secvices > p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #506270;
+}
+/*# sourceMappingURL=style.css.map */

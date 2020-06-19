@@ -1,0 +1,15 @@
+@mixin nunito-font ($fs-nunito, $lh-nunito, $fw-nunito, $c-nunito) {
+    font-family: 'Nunito', sans-serif;
+    font-size: $fs-nunito;
+    line-height: $lh-nunito;
+    font-weight: $fw-nunito;
+    color: $c-nunito;
+}
+
+@mixin rubik-font ($fs-rubik, $lh-rubik, $fw-rubik, $c-rubik) {
+    font-family: 'Rubik', sans-serif;
+    font-size: $fs-rubik;
+    line-height: $lh-rubik;
+    font-weight: $fw-rubik;
+    color: $c-rubik;
+}
